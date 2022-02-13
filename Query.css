@@ -1,0 +1,271 @@
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .navbar{
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .item .link{
+        padding: 0.3rem 0.7rem;
+        margin: 0 0.5rem;
+    }
+    .item .link span{
+        font-size: 0.75rem;
+        padding: 0 0.3rem;
+    }
+    .item .link img{
+        width: 23px;
+        height: 23px;
+        object-fit: contain;
+    }
+    /* =================== */
+    .main-hero{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-text{
+        width: 100%;
+        max-width: 385px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .main-text p{
+        max-width: none;
+    }
+    /* FilterButtons */
+    .main-filter-buttons{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+    }
+    .filter-button{
+        width: 100%;
+        flex: 1 1 auto;
+    }
+    .search-form{
+        width: 25rem;
+        flex: 1 1 auto;
+        margin: auto;
+    }   
+
+    /* ==================================== */
+    .course-card-grid{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .course-card .card-body{
+        padding: 0.5rem;
+    }
+    .course-card .card-body h1{
+        font-size: 1rem;
+    }
+    .card-footer{
+        width: 100%;
+        flex: 1 1 auto;
+        padding: 0.7rem 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container{
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .hamburger-icon{
+        display: flex !important;
+    }
+    .navbar{
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .navbar .nav{
+        display: none;
+    }
+    /* ==================== */
+    .main-hero{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-text{
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .main-text h1{
+        font-size: 1.7rem;
+    }
+    .main-text p{
+        max-width: none;
+    }
+    .filter-button .button{
+        margin: 0 0.5rem;
+    }
+    .main-filter-buttons{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-filter-buttons,.search-form{
+        margin-top: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .search-form{
+        width: 19rem;
+        flex: 1 1 auto;
+    }
+    /* ==================== */
+    .course-card-grid{
+        display: grid;
+        row-gap: 20px;
+        column-gap: 15px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .course-card,.course-card .card-body{
+        padding: 0.7rem;
+    }
+    .course-card .card-body h1{
+        font-size: 0.85rem;
+    }
+    .course-card .card-body p{
+        font-size: 0.75rem;
+    }
+    .LearnMoreSection .LearnMoreButton{
+        width: 15rem;
+        height: 4rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 1rem;
+    }
+    .LearnMoreButton .ButtonRing{
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    }
+    .LearnMoreButton .ButtonRing .ring-icon{
+        width: 41px;
+        height: 41px;
+    }
+    .LearnMoreButton .ButtonBackground{
+        top: 1px;
+        left: 11px;
+        width: 23px;
+        height: 23px;
+        padding: 0.3rem;
+    }
+    .LearnMoreButton .ButtonBackground .icon-courses{
+        width: 23px;
+        height: 23px;
+    }
+    .ButtonTexts p:nth-child(1){
+        margin-bottom: 0.3vh;
+        font-size: 0.7rem;
+    }
+    .ButtonTexts p:nth-child(2){
+        font-size: 0.7rem;
+    }
+    /* ==================== */
+    .footer .footer-container{
+        width: 35rem;
+        margin: 0 auto;
+    }
+    .footer-container .footer-content{
+        width: 17rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .footer .footer-container{
+        width: auto;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .footer-container .footer-content{
+        width: 17rem;
+    }
+    .footer-nav .item .link img{
+        width: 23px;
+        height: 23px;
+        object-fit: contain;
+    }
+    .footer-nav .info-item{
+        padding-left: 1rem;
+    }
+    .footer-nav .info-item p{
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .course-card,.course-card .card-body{
+        padding: 0.5rem 0.7rem;
+    }
+    .course-card-grid{
+        display: grid;
+        row-gap: 35px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .course-card .card-body h1{
+        font-size: 1rem;
+    }
+    .course-card .card-body p{
+        font-size: 0.9rem;
+    }
+    .card-footer{
+        width: 95%;
+        flex: 1 1 auto;
+        padding: 0.7rem 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .main-text{
+        max-width: 300px;
+    }
+    .main-text h1{
+        font-size: 1rem;
+    }
+    .main-text p{
+        max-width: none;
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+    .main-filter-buttons,.search-form{
+        margin-top: 2vh;
+    }
+
+    .filter-button .button{
+        margin: 0 0.35rem;
+    }
+    .filter-button .button{
+        width: 2rem;
+        height: 2rem;
+    }
+    .search-form{
+        width: 17rem;
+        flex: 1 1 auto;
+    }
+    .search-form .searc-button{
+        position: absolute;
+        top: 0.4rem;
+        right: 0.5rem;
+    }
+    .search-form input{
+        border-radius: 0.5rem;
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .search-form{
+        width: auto;
+        flex: 1 1 auto;
+    }
+}

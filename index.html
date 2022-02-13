@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Courses Shop | JSSTACK</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="512x512" href="./Images/Favicon/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="./Index.css" />
+    <link rel="stylesheet" type="text/css" href="./Query.css" />
+    
+</head>
+<body>
+    
+    <main class="main">
+        <div class="background-color"></div>
+        <div class="app-wrapper">
+            <div class="container">
+                <!-- Navbar -->
+                <nav class="navbar d-flex flex-row justify-between">
+                    <a href="index.html" class="navbrand d-flex"><img src="./Images/Icons/Logo.svg" alt="logo/svg" /></a>
+                    <ul class="nav d-flex">
+                        <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/home.svg" /> <span>Home</span></a></li>
+                        <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/courses.svg" /> <span>Courses</span></a></li>
+                        <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/livestreams.svg" /> <span>LiveStreams</span></a></li>
+                        <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/pricing.svg" /> <span>Pricing</span></a></li>
+                        <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/setting.svg" /> <span>Lite Mode on</span></a></li>
+                        <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/account.svg" /> </a></li>
+                    </ul>
+                    <ul class="hamburger-icon">
+                        <li class="item"><a href="#" class="link icon-active d-flex"><img src="./Images/Icons/hamburger-menu.svg" alt="hamburger/icon" /></a></li>
+                    </ul>
+                </nav>
+                <!-- Navbar -->
+                <!-- Main-Hero -->
+                <section class="HERO-UI">
+                    <div class="main-hero d-flex justify-between flex-row">
+                        <div class="main-text">
+                            <p>12 HOURS OF COURSES</p>
+                            <h1>Learn best tools and platforms</h1>
+                            <p>We focus on industry leading platforms so that you can be prepared for your next level jobs.</p>
+                        </div>
+                        <div class="main-filter-buttons d-flex flex-row justify-between">
+                            <nav class="filter-button d-flex flex-row justify-center">
+                                <a href="#" class="button"><img src="./Images/Icons/swiftui-logo.svg"></a>
+                                <a href="#" class="button"><img src="./Images/Icons/react-logo.svg"></a>
+                                <a href="#" class="button"><img src="./Images/Icons/figma-logo.svg"></a>
+                                <a href="#" class="button"><img src="./Images/Icons/sketch-logo.svg"></a>
+                                <a href="#" class="button"><img src="./Images/Icons/framer-logo.svg"></a>
+                                <a href="#" class="button"><img src="./Images/Icons/webflow-logo.svg"></a>
+                                <a href="#" class="button"><img src="./Images/Icons/protopie-logo.svg"></a>
+                            </nav>                       
+                            <form class="search-form d-flex flex-row justify-center">
+                                <div class="searc-button"><img src="./Images/Icons/search.svg" /></div>
+                                <input type="text" aria-label="Search-top-courses" name="search" placeholder="Search" autocomplete="off" />
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <!-- Main-Hero -->
+                <!-- Courses-Dashboard -->
+                <section class="COURSES-UI">
+                    <div class="courses-wrapper">
+                        <div class="courses-dashboard">
+                            <div class="course-card-grid" id="Card-Grid"><!-- Course-Card-Grid --></div>
+                            <section class="LearnMoreSection d-flex justify-center flex-row">
+                                <button type="button" class="LearnMoreButton animation-forwards d-flex flex-row justify-between">
+                                    <div class="ButtonRing">
+                                        <svg width="55" height="55" class="ring-icon animation-forwards" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="27.5" cy="27.5" r="26.5" stroke="#fc086e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 20 8 1 10 8"></circle><defs><radialGradient cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(27.5 27.5) rotate(107.904) scale(34.1541)"><stop offset="0.0870822" stop-color="#844FFC"></stop><stop offset="0.69191" stop-color="#E1467C"></stop></radialGradient></defs></svg>
+                                    </div>
+                                    <div class="ButtonBackground d-flex justify-center">
+                                        <svg width="30" height="30" class="icon-courses animation-forwards" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 21H3C2.45 21 2 20.55 2 20V4C2 3.45 2.45 3 3 3H12V21Z" fill="white" fill-opacity="0.3"/><path d="M21 21H12V3H21C21.55 3 22 3.45 22 4V20C22 20.55 21.55 21 21 21Z" fill="white" fill-opacity="0.3"/><path d="M4 12H10" stroke="white" stroke-opacity="0.7" stroke-width="1.2" stroke-miterlimit="10"/><path d="M4 8H10" stroke="white" stroke-opacity="0.7" stroke-width="1.2" stroke-miterlimit="10"/><path d="M4 16H10" stroke="white" stroke-opacity="0.7" stroke-width="1.2" stroke-miterlimit="10"/><path d="M14 12H20" stroke="white" stroke-opacity="0.7" stroke-width="1.2" stroke-miterlimit="10"/><path d="M14 8H20" stroke="white" stroke-opacity="0.7" stroke-width="1.2" stroke-miterlimit="10"/></svg>
+                                    </div>
+                                    <div class="ButtonTexts">
+                                        <p class="animation-forwards">Learn More Courses</p>
+                                        <p class="animation-forwards">$19 Per Month</p>
+                                    </div>
+                                </button>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <!-- Courses-Dashboard -->
+            </div>
+        </div>
+    </main>
+    <footer class="footer d-flex justify-center flex-column">
+        <div class="footer-container d-flex flex-row justify-between">
+            <div class="footer-content d-flex flex-row justify-between">
+                <nav class="footer-nav">
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/home.svg" alt="svg/img" /><span>Home</span></a></li>
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/courses.svg" alt="svg/img" /><span>Courses</span></a></li>
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/tutorials.svg" alt="svg/img" /><span>Tutorials</span></a></li>
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/pricing.svg" alt="svg/img" /><span>Pricing</span></a></li>
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/calendar.svg" alt="svg/img" /><span>Updates</span></a></li>
+                </nav>
+                <nav class="footer-nav">
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/downloads.svg" alt="svg/img" /><span>Downloads</span></a></li>
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/search.svg" alt="svg/img" /><span>Search</span></a></li>
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/account.svg" alt="svg/img" /><span>Accounts</span></a></li>
+                    <li class="item"><a href="#" class="link d-flex"><img src="./Images/Icons/gift.svg" alt="svg/img" /><span>Licenses</span></a></li>
+                </nav>
+            </div>
+            <div class="footer-content">
+                <nav class="footer-nav">
+                    <div class="info-item d-flex justify-start"><img src="./Images/Icons/code.svg" alt="svg/img" /><div><p>Site made with HTML, CSS</p><p>JavaScript & Firebase.<b>Learn How.</b></p></div></div>
+                    <div class="info-item d-flex justify-start"><img src="./Images/Icons/chat.svg" alt="svg/img" /><div><p>Follow US ON: YouTube,</p><p>Twitter, Instagram & Facecbook</p></div></div>
+                    <div class="info-item d-flex justify-start"><img src="./Images/Icons/help.svg" alt="svg/img" /><p>Need Help?&nbsp;Contact US @JSSTACK</p></div>
+                    <div class="info-item d-flex justify-start"><img width="29px" height="29px" style="object-fit: cover;border-radius: 50%;" src="./Images/Icons/jsstack-logo.jpg" alt="svg/img" /><p>JSSTACK COURSES SHOPE &copy; 2021</p></div>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" async src="./Index.js"></script>
+</body>
+</html>
